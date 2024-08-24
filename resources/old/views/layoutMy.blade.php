@@ -17,6 +17,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    {{-- php --}}
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,6 +25,21 @@
 
         .nav-link {
             font-size: 1em;
+        }
+
+        .container {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            padding: 0;
+            margin: 0;
         }
 
         li {
@@ -35,11 +51,6 @@
         .nav-item {
             position: relative;
             display: inline-block;
-        }
-
-        .btn {
-            padding: 10px 20px;
-            cursor: pointer;
         }
 
         .btn-outline-success {
@@ -59,8 +70,6 @@
             position: absolute;
             background-color: #343a40;
             min-width: 130px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            /* z-index: 1; */
             margin: 0;
             padding: 0;
         }
@@ -84,10 +93,12 @@
             display: block;
         }
 
+        .nav-item {
+            font-size: 0.8em;
+        }
+
         .dropdown-item:hover {
             background-color: #495057;
-            margin: 0;
-            padding: 0;
         }
 
         .title {
@@ -119,15 +130,18 @@
         }
     </style>
 
+
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
 
     <div class="title">
-        <h2 class="title-text" style="text-shadow: 20px;"><strong>
-                Cattle Farming Information Website : Everything You Need To Know</strong>
+        <h2 class="title-text" style="text-shadow: 20px;"><strong>Cattle Farming Information Website : Everything You
+                Need To
+                Know</strong>
         </h2>
     </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
         <div class="container">
             <a class="navbar-brand">
@@ -141,56 +155,60 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/home"> Home</a>
+                        <a class="nav-link" href="/homeMy"><b>ပင်မ</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/aboutMy"><b>အကြောင်းအရာ</b></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link dropdown-toggle" href="/cattle" aria-expanded="false">
-                            OurCattle
+                        <a class="nav-link " href="/cattleMy" aria-expanded="false">
+                            <b>နွားအမျိုးအစားများ</b>
                         </a>
                         <ul class="dropdown">
-                            <li><a class="dropdown-item" href="/dairy">Dairy Cattle</a></li>
-                            <li><a class="dropdown-item" href="/beef">Beef Cattle</a></li>
-                            <li><a class="dropdown-item" href="/draft">Draft Cattle</a></li>
+                            <li><a class="dropdown-item" href="/dairyMy">နို့စားနွား</a></li>
+                            <li><a class="dropdown-item" href="/beefMy">အသားစားနွား</a></li>
+                            <li><a class="dropdown-item" href="/draftMy">ခိုင်းနွား</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/gallery">Gallery</a>
+                        <a class="nav-link" href="/galleryMy"><b>ဓာတ်ပုံများ</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tips">Tips</a>
+                        <a class="nav-link" href="/tipsMy"><b>အကြံပြုချက်များ</b></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link dropdown-toggle" href="/general" aria-expanded="false">
-                            General-Knowledge
+                        <a class="nav-link dropdown-toggle" href="/generalMy" aria-expanded="false">
+                            <b>အ‌ထွေထွေဗဟုသုတ</b>
                         </a>
                         <ul class="dropdown">
-                            <li><a class="dropdown-item" href="/nutrition">Basic-Nutrition</a></li>
-                            <li><a class="dropdown-item" href="/calf">Calf-care</a></li>
-                            <li><a class="dropdown-item" href="/crops">Fodder-Crops-Cultivation</a></li>
-                            <li><a class="dropdown-item" href="/breeding">Breeding</a></li>
-                            <li><a class="dropdown-item" href="/health">Health</a></li>
-                            <li><a class="dropdown-item" href="/management">Farm-Management</a></li>
+                            <li><a class="dropdown-item" href="/nutritionMy">အခြေခံအာဟာရဗေဒ</a></li>
+                            <li><a class="dropdown-item" href="/calfMy">နွားကလေးပြုစုခြင်း</a></li>
+                            <li><a class="dropdown-item" href="/cropsMy">နွားစာပင်စိုက်ပျိုးခြင်း</a></li>
+                            <li><a class="dropdown-item" href="/breedingMy">မျိုးပွားခြင်း</a></li>
+                            <li><a class="dropdown-item" href="/healthMy">ကျန်းမာရေး</a></li>
+                            <li><a class="dropdown-item" href="/managementMy">ခြံစီမံခန့်ခွဲမှု</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
+                        <a class="nav-link" href="/contactMy"><b>ဆက်သွယ်ရန်</b></a>
                     </li>
+
                 </ul>
-                <li class="nav-item ">
-                    <a class="nav-link btn  me-2" href="/" aria-expanded="false">
-                        <u>Switch Language?</u>
-                    </a>
-                    <ul class="dropdown">
-                        <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'my']) }}?redirect={{ urlencode(request()->route()->getName()) }}">Burmese</a></li>
-                        <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'en']) }}?redirect={{ urlencode(request()->route()->getName()) }}">English</a></li>
-                    </ul>
-                </li>
+                {{-- <button style="font-size: 0.8em;" class="btn "><a href="/"
+                        class="text-primary"><b>ဘာသာစကားပြောင်းရန်?</b></a></button> --}}
+                        <li class="nav-item ">
+                            <a class="nav-link btn  me-2" href="/" aria-expanded="false">
+                                <u><b>ဘာသာစကားပြောင်းရန်?</b></u>
+                            </a>
+                            <ul class="dropdown">
+                                <li><a class="dropdown-item" href="/home">English</a></li>
+                                <li><a class="dropdown-item" href="/homeMy">မြန်မာ</a></li>
+                            </ul>
+                        </li>
             </div>
         </div>
     </nav>
+
 
     @yield('content')
 
@@ -203,8 +221,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 
 </body>
 

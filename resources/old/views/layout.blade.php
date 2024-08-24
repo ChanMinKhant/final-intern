@@ -184,8 +184,8 @@
                         <u>Switch Language?</u>
                     </a>
                     <ul class="dropdown">
-                        <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'my']) }}?redirect={{ urlencode(request()->route()->getName()) }}">Burmese</a></li>
-                        <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'en']) }}?redirect={{ urlencode(request()->route()->getName()) }}">English</a></li>
+                        <li><a class="dropdown-item" href="/homeMy">Burmese</a></li>
+                        <li><a class="dropdown-item" href="/home">English</a></li>
                     </ul>
                 </li>
             </div>

@@ -201,8 +201,9 @@
                                 <u><b>ဘာသာစကားပြောင်းရန်?</b></u>
                             </a>
                             <ul class="dropdown">
-                                <li><a class="dropdown-item" href="/home">English</a></li>
-                                <li><a class="dropdown-item" href="/homeMy">မြန်မာ</a></li>
+                            <ul class="dropdown">
+                                <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'my']) }}">Burmese</a></li>
+                                <li><a class="dropdown-item" href="{{ route('lang.change', ['locale' => 'en']) }}">English</a></li>
                             </ul>
                         </li>
             </div>
