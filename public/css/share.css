@@ -1,0 +1,22 @@
+.the_champ_sharing_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the_champ_sharing_title {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.the_champ_sharing_ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.the_champ_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

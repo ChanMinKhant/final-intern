@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h3, h2 {
+    color: #333;
+}
+
+.cap {
+    color: #555;
+    font-size: 1.2rem;
+}
+.btn-collection {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-collection:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+.img-border {
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-border:hover {
+    transform: scale(1.05);
+}
+
+.contact-section {
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.contact-section h2 {
+    color: white;
+}
+
+.contact-section div {
+    color: white;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+}
+
+h3{
+    text-align: center;
+    color: #6c757d;
+}
+.cap{
+    text-align: center;
+    color: #6c757d;
+}
+.container{
+    align-items: center;
+}
+
+.nav-item{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+

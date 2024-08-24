@@ -1,0 +1,21 @@
+.table-container {
+    margin-top: 50px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.table thead th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}

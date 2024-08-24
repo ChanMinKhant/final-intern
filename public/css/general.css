@@ -1,0 +1,17 @@
+.navbar-custom {
+    background-color: ivory; /* Green background */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #333; /* White text color */
+}
+
+.navbar-custom .nav-link:hover {
+    color: green; /* Light gray on hover */
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #fff; /* White border for the toggler */
+}
+

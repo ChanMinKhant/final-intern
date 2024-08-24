@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    /* margin: 0; */
+    line-height: 1.5;
+    font-size: large;
+    word-spacing: 8px;
+}
+.title-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+.nav-link:hover {
+    color: green;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.hero {
+    background: url('https://img.freepik.com/free-photo/beautiful-asian-woman-farmer-with-cows-cowshed-dairy-farm_1150-12771.jpg?t=st=1720023080~exp=1720026680~hmac=d209679d2345185c61f60711b6cb35ed460281d72d549a4fc422edb168d596c9&w=900') no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    width: 99%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.con{
+    background-color: #d4b496;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
